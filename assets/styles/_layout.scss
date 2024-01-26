@@ -1,0 +1,21 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $container-width;
+  width: 100%;
+
+  @media (min-width: $tablet-breakpoint) and (max-width: #{$container-width - 1}) {
+    padding-left: $side-spacing;
+    padding-right: $side-spacing;
+  }
+
+  @media (min-width: #{$mobile-breakpoint + 1}) and (max-width: $tablet-breakpoint) {
+    padding-left: $side-spacing-md;
+    padding-right: $side-spacing-md;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: $side-spacing-sm;
+    padding-right: $side-spacing-sm;
+  }
+}

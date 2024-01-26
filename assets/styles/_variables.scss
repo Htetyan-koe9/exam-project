@@ -1,0 +1,41 @@
+// Colors
+$color-white: #fff;
+$color-green: green;
+$color-red: red;
+$color-gray: #555555;
+$color-light-gray: #707070;
+$color-black: #000000;
+
+// Core components
+$color-text-heading: $color-black;
+$color-text-body: #303030;
+$color-bg: #f9f9f9;
+$color-success: $color-green;
+$color-danger: $color-red;
+$border-color: $color-light-gray;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+// Layout
+$nav-height: 64px;
+$container-width: 1300px;
+$side-spacing: 48px;
+$side-spacing-md: 36px;
+$side-spacing-sm: 24px;
+$page-top-spacing: 20px;
+$page-bottom-spacing: 20px;
+$zindex-bg: -1;
+$zindex-content: 1;
+$zindex-loading: 100;
+$zindex-fixed-content: $zindex-loading - 1;
+$zindex-max: 2147483647;
+$mobile-breakpoint: 576px;
+$tablet-breakpoint: 1024px;
+$desktop-breakpoint: #{$tablet-breakpoint + 1};
+
+// Components
+$navbar-height: 82px;
+
+// Transitions
+$transition-ease: 0.5s ease;
+$transition-linear: 0.1s linear;
+$transition-ease-in-out: 0.3s ease-in-out;
